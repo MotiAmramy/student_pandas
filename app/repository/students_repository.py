@@ -12,6 +12,21 @@ def chat_gpt_users(df: DataFrame, used: bool):
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def class_average(df: DataFrame):
     clean_df = df.dropna(subset=['Class_Average'])
     avg = clean_df['Class_Average'].mean()
